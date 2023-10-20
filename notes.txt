@@ -1,0 +1,17 @@
+init project 
+$ go mod init github.com/cassioglay/go-rest-api
+
+manager http
+$ go get -u github.com/gorilla/mux
+
+acess container
+$ docker-compose exec postgres sh
+
+local container is runner
+$ hostname -i
+
+manager bd
+$ go get -u gorm.io/gorm
+
+--> postgres
+$ go get gorm.io/driver/postgres
